@@ -1,7 +1,3 @@
-/*
-Definisati strukturu ParReci koja sadrži reč na srpskom jeziku i odgovarajući prevod na engleski jezik. Napisati program koji do kraja ulaza učitava sve parove reči, a potom za rečenicu koja se zadaje u jednoj liniji ispisuje prevod. Ako je reč u rečenici nepoznata umesto nje ispisati nisku zvezdica čija dužina odgovara dužini nepoznate reči. Pretpostaviti da je maksimalna dužina reči 50 karaktera, maksimalan broj parova reči 100, a maksimalna dužina rečenice 100 karaktera.
-*/
-
 using System;
 using System.Text;
 
