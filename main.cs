@@ -6,7 +6,7 @@ using System.Text;
 class Program
 {
   
-static bool DaLiJeRec(string s)
+static bool Rec(string s)
 {
   foreach(char c in s)
     if(!char.IsLetter(c)) return false;
