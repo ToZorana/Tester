@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-
+// Da li je uneti string reč?
 
 class Program
 {
