@@ -7,15 +7,16 @@ struct ParReci
 	public string prevod;
 }
 
+class Program
+{
+  
 static bool DaLiJeRec(string s)
 {
   foreach(char c in s)
-    if(!char.IsLetter(c)) r
+    if(!char.IsLetter(c)) return false;
+  return true;
 }
-
-class Program
-{
-	static ParReci[] UcitajReci(int n)
+	static parReci[] UcitajReci(int n)
 	{
 		ParReci[] _niz = new ParReci[n];
 		for (int i = 0; i < n; i++)
